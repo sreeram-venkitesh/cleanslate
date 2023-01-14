@@ -43,3 +43,13 @@ changelog:
 # Feel free to remove those if you don't want/use them.
 # yaml-language-server: $schema=https://goreleaser.com/static/schema.json
 # vim: set ts=2 sw=2 tw=0 fo=cnqoj
+brews:
+  - homepage: 'https://github.com/sreeram-venkitesh/homebrew-cleanslate'
+    description: 'Clean your Kubernetes cluster'
+    folder: Formula
+    commit_author:
+      name: sreeram-venkitesh
+      email: sreeram.venkitesh@bigbinary.com
+    tap:
+      owner: sreeram-venkitesh
+      name: homebrew-cleanslate
